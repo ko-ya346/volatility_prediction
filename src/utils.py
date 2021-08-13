@@ -39,4 +39,5 @@ def realized_volatility(log_returns):
     """
     return np.sqrt(np.sum(log_returns ** 2))
 
-
+def count_unique(series):
+    return len(np.unique(series))
